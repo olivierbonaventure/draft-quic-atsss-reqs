@@ -619,6 +619,7 @@ delivery of subsequent data over another connection.
 
 Experience with MPTCP on smartphones shows that its integrated mechanisms (e.g., congestion control, round-trip-time estimation, packet scheduler) are well suited to support splitting and switching. Providing a similar service over independent QUIC connections would require a complex application that would need to track the congestion window, round-trip-time, and loss characteristics of the underlying QUIC connections as well as some specific application layer signalling to glue the various QUIC connections together.
 
+Some recent 3GPP contributions proposed to use this solution for ATSSS Phase 2, nevertheless this approach suffers from the issues discussed above.
 
 ### MP-QUIC Tunneling {#sec-mpquic-tunnel}
 
